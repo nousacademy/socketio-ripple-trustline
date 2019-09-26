@@ -1,0 +1,21 @@
+{
+  "name": "trustline",
+  "version": "1.0.0",
+  "description": "Write a program that implements a trustline and exposes an interface (such as an API or interactive shell) for a user to interact with the trustline. Each user will run a separate instance of the service and once both processes are started, each user should be able to send money to the other and view their own balance.",
+  "main": "start-trustline.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "xrp",
+    "ripple",
+    "cryptocurrency"
+  ],
+  "author": "The Architect <thearchitect@nousacademy.com> (https://nousacademy.github.io/)",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0",
+    "socket.io-client": "^2.3.0"
+  }
+}
