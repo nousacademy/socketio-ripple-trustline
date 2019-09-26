@@ -1,8 +1,8 @@
 {
-  "name": "trustline",
+  "name": "socketio-ripple-trustline",
   "version": "1.0.0",
   "description": "Write a program that implements a trustline and exposes an interface (such as an API or interactive shell) for a user to interact with the trustline. Each user will run a separate instance of the service and once both processes are started, each user should be able to send money to the other and view their own balance.",
-  "main": "start-trustline.js",
+  "main": "trustline.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
