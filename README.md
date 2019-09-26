@@ -1,15 +1,16 @@
-# TASK
-# A “trustline” is a way to keep track of debt between two parties.
-# Each user should interact with a separate instance of the program that keeps track of the trustline balance
-# The trustline services should communicate directly with one another, not through a central server or intermediary
-# State does not have to persist between sessions
+# NodeJS / Socket.io Trustline
+- [x] A “trustline” is a way to keep track of debt between two parties.
+- [x] Each user should interact with a separate instance of the program that keeps track of the trustline balance
+- [x] The trustline services should communicate directly with one another, not through a central server or intermediary
+- [x] State does not have to persist between sessions
 
 
-## Write a program that implements a trustline
-## and exposes an interface (such as an API or interactive shell) for a user to interact with the trustline.
-## Each user will run a separate instance of the service
-## and once both processes are started, each user should be able to
-## send money to the other and view their own balance.
+- [x] Write a program that implements a trustline
+- [x] and exposes an interface (such as an API or interactive shell) for a user to interact with the trustline.
+- [x] Each user will run a separate instance of the service
+- [x] and once both processes are started, each user should be able to
+- [x] send money to the other and view their own balance.
+
 
 Using Node.js version v10.15.3
 
